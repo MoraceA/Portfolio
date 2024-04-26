@@ -1,0 +1,161 @@
+
+
+.ss-img{
+  position: absolute;
+    top: 0;
+    left: 17%;
+    width: 1000px; /* Adjust width as needed */
+    height: 550px; /* Make it cover the full height */
+    font-size: 70px;
+
+
+
+
+
+}
+
+
+.sole-swap{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    width: 1000px; /* Adjust width as needed */
+    height: 100%; /* Make it cover the full height */
+    font-size: 70px;
+    
+}
+
+
+.about-us-img {
+    position: absolute;
+    width: 800px; /* Adjust the size as needed */
+    height: 600px; /* Adjust the size as needed */
+    left: -25%;
+    top: 60%
+  }
+  
+  .sole-swap-description{
+    font-family:  'Inter';
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    width: 500px; /* Adjust the size as needed */
+    height: 500px; /* Adjust the size as needed */
+    top: 110%;
+    left: 60%
+
+  }
+
+
+  .my-role{
+    font-family:  'Inter';
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    width: 800px; /* Adjust the size as needed */
+    height: 500px; /* Adjust the size as needed */
+    top: 190%;
+    left: 5%
+
+
+  }
+
+
+  .auth-icon{
+    width: 50px; /* Adjust the width as needed */
+    height: auto; 
+  }
+
+
+
+  .image-collage {
+    position: absolute;
+    top: 250%;
+    left: 17%;
+  }
+  
+  .collage-img {
+    position: absolute;
+    width: 400px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* Add more styling as needed */
+  }
+  
+  /* Positioning each image */
+  .collage-img:nth-child(1) {
+    top: -80px;
+    left: -120px;
+  }
+  
+  .collage-img:nth-child(2) {
+    top: 200px; /* Adjust as needed */ 
+    left: -120px; /* Adjust as needed */
+  }
+  .collage-img:nth-child(3) {
+    top: 100px; /* Adjust as needed */
+    left: 300px; /* Adjust as needed */
+  }
+
+  .collage-img:nth-child(4) {
+    top:200px; /* Adjust as needed */ 
+    left: 720px; /* Adjust as needed */
+  }
+
+  .collage-img:nth-child(5) {
+    top:-80px; /* Adjust as needed */
+    left: 720px; /* Adjust as needed */
+  }
+
+
+
+  .check-it-out-btn {
+    position: absolute;
+    top: 170%;
+    left: 72%;
+    border: 1px solid black; /* Thin black border */
+    background-color: transparent; /* Transparent background */
+    color: black; /* Black text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  /* Hover effect */
+  .check-it-out-btn:hover {
+    background-color: black; /* Black background on hover */
+    color: white; /* White text color on hover */
+  }
+
+
+
+
+  @media only screen and (max-width: 479px) {
+    .ss-img,
+    .sole-swap,
+    .about-us-img,
+    .sole-swap-description,
+    .my-role,
+    .image-collage,
+    .collage-img {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: auto;
+        height: auto;
+        margin: 10px;
+    }
+  
+    .collage-img {
+        width: 200px; /* Adjust width for smaller screens */
+    }
+  
+    .ss-img,
+    .sole-swap {
+        font-size: 40px; /* Decrease font size for smaller screens */
+    }
+
+    .check-it-out-btn {
+        padding: 8px 16px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}

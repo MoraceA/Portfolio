@@ -1,0 +1,68 @@
+
+
+.description {
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    width: 400px; /* Adjust width as needed */
+    height: 100%; /* Make it cover the full height */
+    text-align:left;
+}
+
+.right-side {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: left;
+    font-size: 20px;
+    overflow-y: auto; /* Allow scrolling */
+    max-height: 100%; /* Adjust as needed */
+    width: calc(100% - 800px); /* Adjust to take remaining width */
+}
+
+
+.link2 {
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 70px;
+    display: inline-block;
+    transition: transform 0.3s, font-size 0.3s; /* Removed color transition */
+}
+
+.link2:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+    font-size: 70px; /* Increase font size on hover */
+    font-style: italic; /* Italicize on hover */
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 479px) {
+    .description {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: auto;
+        height: auto;
+        margin: 10px;
+    }
+  
+    .right-side {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+  
+    .link2 {
+        font-size: 40px;
+    }
+  
+    .link2:hover {
+        font-size: 45px;
+    }
+}

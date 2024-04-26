@@ -1,0 +1,108 @@
+/* Home.css */
+
+/* Header section */
+
+.page-title{
+  
+  font-size:20px;
+}
+.header {
+  font-size:40px;
+  font-family: 'Italiana';
+  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start;
+}
+
+
+.profile-pic {
+  margin-top:-200px;
+  margin-left: 1000px;
+
+}
+
+
+
+/* Additional styling for sections if needed */
+.about {
+  font-size:15px;
+  box-sizing: border-box;
+
+  position: relative;
+  width: 1280px;
+  height: 369px;
+  
+ 
+ 
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+/* Additional styling for section headings */
+.skills {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.skill-icons img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Additional styling for section paragraphs */
+.projects {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 1280px;
+  height: 369px;
+  
+
+
+  border-radius: 2px;
+}
+/* Footer section */
+footer {
+
+  padding: 20px;
+}
+
+.about, .skills, .projects {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; /* Add transition for opacity */
+}
+
+/* Ensure active sections are fully visible */
+.about.active, .skills.active, .projects.active {
+  opacity: 10;
+}
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+  .page-title {
+      font-size: 16px;
+  }
+  .header {
+      font-size: 30px;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+  }
+  .profile-pic {
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .about,
+  .skills,
+  .projects {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+  }
+  .about.active,
+  .skills.active,
+  .projects.active {
+      opacity: 1;
+  }
+}

@@ -1,0 +1,87 @@
+.full-name{
+    position: fixed;
+    top: 70%;
+    left: 20%;
+}
+.bio{
+    position: fixed;
+    top: 80%;
+    left: 21%;
+}
+.container-2 {
+    position: absolute;
+    top: 0; /* Adjust as needed */
+    left: 800px; /* Adjust as needed */
+    text-align: left;
+    font-size: 50px;
+}
+.link {
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 140px;
+    display: inline-block;
+    transition: transform 0.3s, font-size 0.3s; /* Removed color transition */
+}
+
+.link:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+    font-size: 150px; /* Increase font size on hover */
+}
+.container-2 br {
+    margin: 2px; /* Adjust the margin to change the space between line breaks */
+}
+
+.polaroid {
+    position: fixed;
+    top: 5%;
+    left: 15%;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .polaroid:hover {
+    transform: translateY(-5px);
+  }
+
+
+
+  /* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .full-name {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+    }
+    .bio {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+    }
+    .container-2 {
+        position: relative;
+        left: auto;
+        font-size: 30px;
+        text-align: center;
+    }
+    .link {
+        font-size: 80px;
+    }
+    .polaroid {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 200px;
+        margin: 20px auto;
+    }
+}
+  
