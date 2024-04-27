@@ -1,6 +1,6 @@
 import React from 'react';
 import './SoleSwap.css';
-import createAccountImage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Create Account Page.png'; // Assuming you have the image file in the same directory
+import createAccountImage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Create Account Page.png'; 
 import MenShoesIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Mens Shoes Page.png';
 import HomePageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Home Page.png';
 import AboutUsPage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/About Us Page.png';
@@ -9,7 +9,7 @@ import ContactPageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamo
 import LoginPageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Login Page.png';
 function SoleSwap (){
   const handleCheckItOutClick = () => {
-    window.open('https://github.com/MoraceA/Sole-Swap'); // Replace 'YOUR_LINK_HERE' with the actual link
+    window.open('https://github.com/MoraceA/Sole-Swap'); 
   };
 
 
@@ -20,7 +20,7 @@ function SoleSwap (){
         <h1>Sole Swap</h1>
 
         <img className="about-us-img" src={AboutUsPage} alt="Sole Swap" />
-        {/* Your component content goes here */}
+       
       </div>
       <div className="sole-swap-description">
         <p>ABOUT</p>
@@ -40,11 +40,11 @@ function SoleSwap (){
 
 </div>
 <div className="image-collage">
-        <img className="collage-img" src={createAccountImage} alt="Create Account" />
-        <img className="collage-img" src={MenShoesIMG} alt="SSIMG" />
-        <img className="collage-img" src={ProductDescriptionIMG} alt="SSIMG" />
-        <img className="collage-img" src={ContactPageIMG} alt="SSIMG" />
-        <img className="collage-img" src={LoginPageIMG} alt="SSIMG" />
+        <img className="collage-img" src={createAccountImage}  />
+        <img className="collage-img" src={MenShoesIMG}  />
+        <img className="collage-img" src={ProductDescriptionIMG}  />
+        <img className="collage-img" src={ContactPageIMG}  />
+        <img className="collage-img" src={LoginPageIMG}  />
         {/* Add more images here */}
       </div>
 
