@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+:root {
+  font-family: 'Italiana', serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: #FAF9F6;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FAF9F6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Other CSS rules remain unchanged */
+
+a {
+  font-weight: 500;
+  color: #ff69b4;
+  text-decoration: inherit;
+}
+a:hover {
+  color:#ff69b4;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 400px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ff69b4;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #000000;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    font-family: 'Italiana';
+    color: #000000; /*font color*/
+    background-color:#fff5ee
+    /*:#f0f8ff/* #f0f8ff*/
+     /* #faebd7 */
+    /* #fff5ee background color*/
+  }
+  a:hover {
+    color: #000000;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

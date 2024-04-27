@@ -1,0 +1,102 @@
+/* App.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+.contact-description{
+font-size: 18px;
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  width: 400px; /* Adjust width as needed */
+  height: 100%; /* Make it cover the full height */
+  text-align:left;
+
+
+
+
+
+}
+  .contact-me-section{
+    font-size: 16px;
+    position: fixed;
+    top: 20%;
+    left: 65%;
+    width: 400px; /* Adjust width as needed */
+    height: 100%; /* Make it cover the full height */
+    text-align:left;
+  }
+  
+  form {
+    position: fixed;
+    top: 40%;
+    left: 65%;
+    width: 800px; /* Adjust width as needed */
+    height: 100%; /* Make it cover the full height */
+    text-align:left;
+  }
+  
+  label {
+    font-weight: bold;
+    left: 65%;
+    position: fixed;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%; 
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a9a9a9;
+  }
+  
+
+  /* Media query for phones */
+@media only screen and (max-width: 479px) {
+  .contact-description,
+  .contact-me-section,
+  form {
+      position: relative;
+      top: auto;
+      left: auto;
+      width: auto;
+      height: auto;
+      margin: 10px;
+  }
+
+  label {
+      left: auto;
+      position: relative;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+  }
+}
