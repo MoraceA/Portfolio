@@ -1,12 +1,12 @@
 import React from 'react';
 import './SoleSwap.css';
-import createAccountImage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Create Account Page.png'; 
-import MenShoesIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Mens Shoes Page.png';
-import HomePageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Home Page.png';
-import AboutUsPage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/About Us Page.png';
-import ProductDescriptionIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Product Description.png';
-import ContactPageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Contact Page.png';
-import LoginPageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/Login Page.png';
+import createAccountImage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/CreateAccountPage.png'; 
+import MenShoesIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/MensShoesPage.png';
+import HomePageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/HomePage.png';
+import AboutUsPage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/AboutUsPage.png';
+import ProductDescriptionIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/ProductDescription.png';
+import ContactPageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/ContactPage.png';
+import LoginPageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/LoginPage.png';
 function SoleSwap (){
   const handleCheckItOutClick = () => {
     window.open('https://github.com/MoraceA/Sole-Swap'); 
