@@ -1,12 +1,12 @@
 import React from 'react';
 import './SoleSwap.css';
-import createAccountImage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/CreateAccountPage.png'; 
-import MenShoesIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/MensShoesPage.png';
-import HomePageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/HomePage.png';
-import AboutUsPage from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/AboutUsPage.png';
-import ProductDescriptionIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/ProductDescription.png';
-import ContactPageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/ContactPage.png';
-import LoginPageIMG from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/LoginPage.png';
+import createAccountImage from '../../assets/CreateAccountPage.png'; 
+import MenShoesIMG from '../../assets/MensShoesPage.png';
+import HomePageIMG from '../../assets/HomePage.png';
+import AboutUsPage from '../../assets/AboutUsPage.png';
+import ProductDescriptionIMG from '../../assets/ProductDescription.png';
+import ContactPageIMG from '../../assets/ContactPage.png';
+import LoginPageIMG from '../../assets/LoginPage.png';
 function SoleSwap (){
   const handleCheckItOutClick = () => {
     window.open('https://github.com/MoraceA/Sole-Swap'); 
