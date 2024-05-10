@@ -14,7 +14,7 @@ function Home() {
       </div>
 
       <div className="polaroid">
-        <img src="../src/assets/glasses.JPG" alt="Ariana Morace" style={{ width: '100%' }} />
+        <img src="../src/assets/SelfProtrait.jpg" alt="Ariana Morace" style={{ width: '100%' }} />
       </div>
     </div>
   );
