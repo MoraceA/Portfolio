@@ -46,6 +46,11 @@ const ContactForm = () => {
         <p>linkedin.com/in/arianamorace/</p>
 
       </div>
+
+      <div className="contact-pg-back-button">
+        <a href="/" className="link">&larr;</a><br />
+      </div>
+      
       <div className="contact-me-section">
         <div>
           <h1>CONTACT ME</h1>
@@ -83,6 +88,9 @@ const ContactForm = () => {
           <button type="submit">Send Message</button>
         </form>
       </div>
+ 
+
+
     </div>
   );
 }

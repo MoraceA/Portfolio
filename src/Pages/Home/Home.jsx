@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import portrait from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/SelfProtrait.jpg';
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
       </div>
 
       <div className="polaroid">
-        <img src="../src/assets/SelfProtrait.jpg" alt="Ariana Morace" style={{ width: '100%' }} />
+      <img src={portrait} alt="unity" style={{ width: '100%' }} />
       </div>
     </div>
   );

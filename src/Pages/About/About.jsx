@@ -22,6 +22,7 @@ import pycharmLogo from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorac
 import vsLogo from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/vscode.jpg';
 import unityLogo from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/unity.jpg';
 import blenderLogo from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/blender.jpg';
+import selfie from '/Users/ariana/Desktop/Projects/PersonalSite/arianamorace/src/assets/me.png';
 
 
 function About() {
@@ -60,7 +61,8 @@ function About() {
       </header>
 
       <div className="profile-pic">
-        <img src="../src/assets/me.png" style={{ width: '250px', height: '250px', borderRadius: '50%' }} />
+      <img src={selfie} style={{ width: '250px', height: '250px', borderRadius: '50%' }} />
+
       </div>
 
       <section id="about" className={`about ${activeSection === 'about' ? 'active' : ''}`}>
@@ -121,7 +123,9 @@ function About() {
         </div>
       </section>
 
-
+      <div className="back-button">
+        <a href="/" className="link">&larr;</a><br />
+      </div>
 
 
 
